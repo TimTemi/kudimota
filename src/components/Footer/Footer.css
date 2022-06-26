@@ -1,0 +1,20 @@
+.footy {
+  background-color: #260c0e;
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.mine {
+  position: absolute;
+  top: 5rem;
+  color: #ffff;
+  margin-bottom: 2rem;
+}
+
+.footerLogo {
+  width: 10rem;
+}

@@ -1,0 +1,77 @@
+.pdv {
+  height: 97.5vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.recImage {
+  height: 60%;
+  width: 30%;
+}
+.predMain {
+  display: flex;
+  width: 100%;
+  height: 80%;
+  border-bottom: solid 4px #8f0e10;
+}
+.sideL {
+  background-color: #131313;
+  width: 15%;
+  /* position: relative; */
+}
+
+.sideR {
+  background-color: #260c0e;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center ; */
+  align-items: center;
+  color: #ffff;
+  padding-right: 10rem;
+  padding-top: 3rem;
+}
+.car {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.value {
+  display: -webkit-flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  position: absolute;
+  top: 45%;
+}
+
+.carpredicted {
+  width: 30%;
+  position: relative;
+}
+
+.textValue {
+  display: flex;
+  width: 23%;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+h2 {
+  color: #ffff;
+}
+hr {
+  width: 9%;
+}
+
+.logoP {
+  width: 30%;
+  height: 7rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* background-color: #a40001; */
+}

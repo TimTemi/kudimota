@@ -1,0 +1,155 @@
+.uspec {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.parent {
+  display: -webkit-flex;
+  flex-direction: row;
+  background-color: #260c0e;
+  border-bottom: solid 4px #8f0e10;
+  width: 100%;
+}
+
+.side_1 {
+  display: flex;
+  /* background-color: #131313; */
+  justify-content: space-evenly;
+  width: 30%;
+  position: relative;
+}
+
+.logo {
+  width: 130%;
+  height: 8rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #a40001;
+}
+.car_type {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8rem;
+  width: 100%;
+  background-color: #131313;
+}
+.car_type_section {
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.blue {
+  display: flex;
+  padding: 1rem;
+}
+.black {
+  display: flex;
+  padding: 1rem;
+  margin-bottom: 8rem;
+}
+.ruby {
+  display: flex;
+  padding: 1rem;
+}
+.first {
+  width: 50%;
+}
+.second {
+  width: 50%;
+}
+
+.third {
+  width: 50%;
+}
+
+.fourth {
+  width: 40%;
+}
+
+p {
+  color: #ffff;
+  flex-wrap: nowrap;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: small;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
+.side_2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 80%;
+}
+.page_title {
+  margin-top: 3.5rem;
+  padding: 1rem;
+}
+.pickedCar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.model {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.Info {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.one {
+  width: 100%;
+  padding-left: 13px;
+}
+.two {
+  width: 100%;
+  padding-left: 13px;
+}
+.side_2P {
+  font-size: medium;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.input {
+  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  /* background-color: #8f0e10; */
+  width: 40%;
+}
+
+.submit {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}

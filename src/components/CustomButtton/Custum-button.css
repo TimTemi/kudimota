@@ -1,0 +1,23 @@
+#custom-button {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 5px;
+  border: none;
+  background: #a40001;
+  color: white;
+  cursor: pointer;
+  /* margin: 1rem 0.5rem; */
+  /* padding: 0.9em ; */
+  transition: all 0.1s ease-in-out;
+  
+}
+
+#custom-button:hover {
+  transform: scale(1.05);
+}
+ /* @media screen and (max-width:700px){
+   .custom-button{
+     width: 100%;
+   }
+ } */
