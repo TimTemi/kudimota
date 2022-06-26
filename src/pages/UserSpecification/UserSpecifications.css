@@ -138,12 +138,15 @@ p {
   display: flex;
   flex-direction: column;
   width: 40%;
+margin-top: -1rem;
+margin-bottom: 0.5rem;
+/* background-color: #8f0e10; */
 }
 .right {
   display: flex;
   flex-direction: column;
-  /* background-color: #8f0e10; */
   width: 40%;
+  margin-bottom: 0.5rem;
 }
 
 .submit {

@@ -1,5 +1,5 @@
 import rectangle from "../../assets/Rectangle22.png";
-import kudimota from '../../assets/kudimota33.png'
+import kudimota from "../../assets/kudimota33.png";
 import car from "../../assets/toyotacamry.png";
 import Footer from "../../components/Footer/Footer";
 import CustomButtton from "../../components/CustomButtton/Custom-button";
@@ -15,6 +15,7 @@ const PredictValue = () => {
           <img className="logoP" src={`${kudimota}`} alt="kudimota" />
           <img className="recImage" src={`${rectangle}`} alt="img" />
         </div>
+
         <div className="sideR">
           <div className="pagetitle">
             <h2>Output Result</h2>
@@ -38,7 +39,7 @@ const PredictValue = () => {
                     type="submit"
                     title="Back To Home"
                     style={{ width: "13rem", padding: "1rem" }}
-                    />
+                  />
                 </Link>
               </div>
             </div>

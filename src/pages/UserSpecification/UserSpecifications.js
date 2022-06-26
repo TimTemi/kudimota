@@ -2,7 +2,6 @@ import CustomInput from "../../components/CustomInput/Custom-Input";
 import CustomButton from "../../components/CustomButtton/Custom-button";
 import kudimota from "../../assets/kudimota33.png";
 import Footer from "../../components/Footer/Footer";
-import "./UserSpecifications.css";
 import ruby from "../../assets/toyotaRed.png";
 import blue from "../../assets/toyotaBlue.png";
 import black from "../../assets/toyotaBlack.png";
@@ -10,11 +9,14 @@ import model from "../../assets/toyotacamry.png";
 import boxr from "../../assets/ruby.png";
 import boxbl from "../../assets/blue.png";
 import boxb from "../../assets/black.png";
+import "./UserSpecifications.css";
 
 const UserSpecifications = () => {
   return (
     <section className="uspec">
       <div className="parent">
+        {/* could be modified to a dynamic list 
+component mapping thru the structure */}
         <div className="side_1">
           <img className="logo" src={`${kudimota}`} alt="kudimota" />
           <div className="car_type">
@@ -55,6 +57,7 @@ const UserSpecifications = () => {
             <div className="model">
               <img className="fourth" src={`${model}`} alt="modal" />
             </div>
+            {/* Input Car Specifications area */}
             <form className="data">
               <div className="input">
                 <div className="left">
@@ -62,9 +65,65 @@ const UserSpecifications = () => {
                     <h2>Toyota Camry</h2>
                     <p className="side_2P">Beautiful and Bold</p>
                   </div>
-                  <CustomInput style={{ backgroundColor: "rgb(54,31,34)" }} />
-                  <CustomInput style={{ backgroundColor: "rgb(54,31,34)" }} />
-                  <CustomInput style={{ backgroundColor: "rgb(54,31,34)" }} />
+                  <label
+                    style={{
+                      display: "flex",
+                      color: "white",
+                      flexDirection: "column",
+                      position: "relative",
+                    }}
+                  >
+                    Car Name
+                    <CustomInput
+                      style={{
+                        backgroundColor: "rgb(54,31,34)",
+                        position: "absolute",
+                        top: "0.7em",
+                        right: "-1.2em",
+                        width: "100%",
+                      }}
+                    />
+                  </label>
+                  <label
+                    style={{
+                      display: "flex",
+                      color: "white",
+                      flexDirection: "column",
+                      marginTop: "2rem",
+                      position: "relative",
+                    }}
+                  >
+                    Gear Type
+                    <CustomInput
+                      style={{
+                        backgroundColor: "rgb(54,31,34)",
+                        position: "absolute",
+                        top: "0.7em",
+                        right: "-1.2em",
+                        width: "100%",
+                      }}
+                    />
+                  </label>
+                  <label
+                    style={{
+                      display: "flex",
+                      color: "white",
+                      marginTop: "2rem",
+                      flexDirection: "column",
+                      position: "relative",
+                    }}
+                  >
+                    Fuel Type
+                    <CustomInput
+                      style={{
+                        backgroundColor: "rgb(54,31,34)",
+                        position: "absolute",
+                        top: "0.7em",
+                        right: "-1.2em",
+                        width: "100%",
+                      }}
+                    />
+                  </label>
                 </div>
                 <div className="right">
                   <div className="two">
@@ -74,13 +133,77 @@ const UserSpecifications = () => {
                       dignissimos
                     </p>
                   </div>
-                  <CustomInput style={{ backgroundColor: "rgb(54,31,34)" }} />
-                  <CustomInput style={{ backgroundColor: "rgb(54,31,34)" }} />
-                  <CustomInput style={{ backgroundColor: "rgb(54,31,34)" }} />
+                  <label
+                    style={{
+                      display: "flex",
+                      color: "white",
+                      flexDirection: "column",
+                      position: "relative",
+                    }}
+                  >
+                    Brand
+                    <CustomInput
+                      style={{
+                        backgroundColor: "rgb(54,31,34)",
+                        position: "absolute",
+                        top: "0.7em",
+                        right: "-1.2em",
+                        width: "100%",
+                      }}
+                    />
+                  </label>
+                  <label
+                    style={{
+                      display: "flex",
+                      color: "white",
+                      flexDirection: "column",
+                      marginTop: "2rem",
+
+                      position: "relative",
+                    }}
+                  >
+                    Mileage
+                    <CustomInput
+                      style={{
+                        backgroundColor: "rgb(54,31,34)",
+                        position: "absolute",
+                        top: "0.7em",
+                        right: "-1.2em",
+                        width: "100%",
+                      }}
+                    />
+                  </label>
+                  <label
+                    style={{
+                      display: "flex",
+                      color: "white",
+                      flexDirection: "column",
+                      position: "relative",
+                      marginTop: "2rem",
+                    }}
+                  >
+                    Engine size
+                    <CustomInput
+                      style={{
+                        backgroundColor: "rgb(54,31,34)",
+                        position: "absolute",
+                        top: "0.7em",
+                        right: "-1.2em",
+                        width: "100%",
+                      }}
+                    />
+                  </label>
                 </div>
               </div>
+              {/* submit inputs for prediction */}
               <div className="submit">
-                <CustomButton />
+                <CustomButton
+                  title="Predict Price"
+                  style={{
+                    padding: "0.5em 1em",
+                    width: "20%",
+                  }}
+                />
               </div>
             </form>
             <div />
