@@ -1,0 +1,36 @@
+import { path } from "../routes";
+export const infodatas = [
+  {
+    id: 1,
+    number: "01",
+    title: "Explore favourite cars",
+    body: " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda quia expeditreprehenderit dolorum suscipit! Distinctio deserunt error nobis assumenda corrupti",
+    width: "40%",
+    height: "15rem",
+    margin: "0.5rem",
+    padding: "0.5em 0.5em",
+    Link: `${path.homepage}`,
+  },
+  {
+    id: 2,
+    number: "02",
+    title: "Input your specification",
+    body: " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda quia expeditreprehenderit dolorum suscipit! Distinctio deserunt error nobis assumenda corrupti",
+    width: "30%",
+    height: "15rem",
+    margin: "0.5rem",
+    padding: "0.5em 0.5em",
+    Link: `${path.carSpecification}`,
+  },
+  {
+    id: 3,
+    number: "03",
+    title: "Predict the price",
+    body: " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda quiaexpeditreprehenderit dolorum suscipit! Distinctio deserunt error nobis assumend corrupti",
+    width: "71%",
+    height: "15rem",
+    margin: "0.5rem",
+    padding: "0.5em 0.5em",
+    Link: `${path.perdictedCar}`,
+  },
+];

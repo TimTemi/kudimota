@@ -16,7 +16,7 @@ const UserSpecifications = () => {
     <section className="uspec">
       <div className="parent">
         {/* could be modified to a dynamic list 
-component mapping thru the structure */}
+      component mapping thru the structure */}
         <div className="side_1">
           <img className="logo" src={`${kudimota}`} alt="kudimota" />
           <div className="car_type">

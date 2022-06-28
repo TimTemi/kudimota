@@ -15,7 +15,6 @@ const PredictValue = () => {
           <img className="logoP" src={`${kudimota}`} alt="kudimota" />
           <img className="recImage" src={`${rectangle}`} alt="img" />
         </div>
-
         <div className="sideR">
           <div className="pagetitle">
             <h2>Output Result</h2>

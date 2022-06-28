@@ -1,0 +1,30 @@
+.appinfo{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: center;
+ position: relative;
+ align-items: center;
+ width: 100%;}
+.boxB{
+ /* background-color: aqua; */
+ position: relative;
+ width:100%;
+ bottom: 3.5rem;
+}
+.number{
+ color: #f5f5f5;
+ position: relative;
+ top: -20%;
+}
+.title{
+ color: #f5f5f5;
+  position: relative;
+  font-weight: 600;
+  top: -30%;
+}
+
+.body{
+ width:60%;
+ font: 1em sans-serif;
+}

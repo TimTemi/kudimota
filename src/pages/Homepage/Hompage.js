@@ -1,18 +1,16 @@
+import Navigation from "../../components/Navigation/Navigation";
+import CarGallery from "../../components/Car Gallery/gallery";
 import Footer from "../../components/Footer/Footer";
+import ProductCategory from "../../components/product Category/product Category";
+import Appinfo from "../../components/AppInfo/appinfo";
 
 const Homepage = () => {
   return (
     <section>
-      <div style={{ backgroundColor: "tomato" }}>
-        <h1>Homepage currently under development use</h1>
-        <br />
-        <h2>use the following urls to navigate app @</h2>
-        <br />
-        <h3>http://localhost:3000</h3>
-        <br />
-        <p>carSpecification: "/Userspec",</p>
-        <p>perdictedCar: "/Predictvalue",</p>
-      </div>
+      <Navigation />
+      <ProductCategory />
+      <Appinfo />
+      <CarGallery />
       <Footer />
     </section>
   );

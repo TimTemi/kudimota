@@ -1,0 +1,39 @@
+.main{
+ display: flex;
+ width: 100%;
+ height: 100%;
+  background-color: #260c0e;
+}
+.leftSide{
+ background-color: #131313;
+ width:30%
+}
+.rectangle{
+ height: 40%;
+}
+.rightSide{
+ margin-top: -0.4rem;
+ margin-bottom: 5rem;
+ width: 70%;
+ background-image: url('../../assets/landingPage.png');
+ background-repeat: no-repeat;
+}
+.overlay{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ position: relative;
+ left: 50%;
+ width: 100%;
+}
+.text{
+ position: absolute;
+  font-family: 'Rubik';
+  font-style: normal;
+  width: 119%;
+  height: 100%;
+  top:-30%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+}
