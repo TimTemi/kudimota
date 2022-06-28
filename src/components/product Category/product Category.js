@@ -9,7 +9,7 @@ import "./product Category.css";
 
 function ProductCategory() {
   return (
-    <section>
+    <section className="section">
       <h1 className="componentTitle">Product Categories</h1>
       <div className="topLayer">
         <div className="boxL">

@@ -7,7 +7,7 @@ import "./appinfo.css";
 
 const Appinfo = () => {
   return (
-    <section style={{ position: "relative" }}>
+    <section className="section" style={{ position: "relative" }}>
       <h1 className="componentTitle">What you can do?</h1>
       <div className="appinfo">
         {infodatas.map((infodata) => {
