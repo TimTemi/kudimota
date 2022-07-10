@@ -10,6 +10,8 @@ import boxr from "../../assets/ruby.png";
 import boxbl from "../../assets/blue.png";
 import boxb from "../../assets/black.png";
 import "./UserSpecifications.css";
+import { Link } from "react-router-dom";
+import { path } from "../../routes";
 
 const UserSpecifications = () => {
   return (
@@ -75,6 +77,7 @@ const UserSpecifications = () => {
                   >
                     Car Name
                     <CustomInput
+                      name='carName'
                       style={{
                         backgroundColor: "rgb(54,31,34)",
                         position: "absolute",
@@ -95,6 +98,7 @@ const UserSpecifications = () => {
                   >
                     Gear Type
                     <CustomInput
+                      name='gearType'
                       style={{
                         backgroundColor: "rgb(54,31,34)",
                         position: "absolute",
@@ -115,6 +119,7 @@ const UserSpecifications = () => {
                   >
                     Fuel Type
                     <CustomInput
+                      name='fuelType'
                       style={{
                         backgroundColor: "rgb(54,31,34)",
                         position: "absolute",
@@ -143,6 +148,7 @@ const UserSpecifications = () => {
                   >
                     Brand
                     <CustomInput
+                      name='brand'
                       style={{
                         backgroundColor: "rgb(54,31,34)",
                         position: "absolute",
@@ -164,6 +170,7 @@ const UserSpecifications = () => {
                   >
                     Mileage
                     <CustomInput
+                      name='milage'
                       style={{
                         backgroundColor: "rgb(54,31,34)",
                         position: "absolute",
@@ -184,6 +191,7 @@ const UserSpecifications = () => {
                   >
                     Engine size
                     <CustomInput
+                      name='engineSize'
                       style={{
                         backgroundColor: "rgb(54,31,34)",
                         position: "absolute",
@@ -197,13 +205,16 @@ const UserSpecifications = () => {
               </div>
               {/* submit inputs for prediction */}
               <div className="submit">
-                <CustomButton
-                  title="Predict Price"
-                  style={{
-                    padding: "0.5em 1em",
-                    width: "20%",
-                  }}
-                />
+                <Link to={path.perdictedCar} className="submit">
+                  <CustomButton
+                    title="Predict Price"
+                    type="submit"
+                    style={{
+                      padding: "0.5em 1em",
+                      width: "20%",
+                    }}
+                  />
+                </Link>
               </div>
             </form>
             <div />

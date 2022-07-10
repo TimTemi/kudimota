@@ -2,6 +2,5 @@
  display: inline flex;
  flex-direction: column;
  width: 100%;
- background-color: blueviolet;
  overflow: hidden;
 }

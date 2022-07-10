@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.53ed847a.css",
+    "main.js": "/static/js/main.12219ec2.js",
+    "static/media/landingPage.png": "/static/media/landingPage.d317a3dd45d68d4a736e.png",
+    "static/media/toyotacamry.png": "/static/media/toyotacamry.2c13f6a5757f8463d5e8.png",
+    "static/media/BeautifulCar.png": "/static/media/BeautifulCar.56307b19d57f2bb7797b.png",
+    "static/media/mercedes.png": "/static/media/mercedes.e23054e86b19a6602401.png",
+    "static/media/toyotaPreview.png": "/static/media/toyotaPreview.5e47ec0c644dbabe4c93.png",
+    "static/media/toyotaBlue.png": "/static/media/toyotaBlue.c4b37d9c74f0aea621f2.png",
+    "static/media/toyotaRed.png": "/static/media/toyotaRed.3823ee687e48b8c76ade.png",
+    "static/media/toyotaBlack.png": "/static/media/toyotaBlack.c925c57ac2b783c82e67.png",
+    "static/media/Ellipse.png": "/static/media/Ellipse.6f864272451e2cf250a8.png",
+    "static/media/toyotaLogo.png": "/static/media/toyotaLogo.d856cde757eb50add028.png",
+    "static/media/Car Gallery.png": "/static/media/Car Gallery.8180f40a18e3a5cdf14e.png",
+    "static/media/kudimota33.png": "/static/media/kudimota33.aeb4cebcd4a1d0837494.png",
+    "index.html": "/index.html",
+    "main.53ed847a.css.map": "/static/css/main.53ed847a.css.map",
+    "main.12219ec2.js.map": "/static/js/main.12219ec2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53ed847a.css",
+    "static/js/main.12219ec2.js"
+  ]
+}
